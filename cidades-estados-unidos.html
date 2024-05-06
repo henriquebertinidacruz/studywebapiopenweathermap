@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura em cidades dos Estados Unidos</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" href="images/logo-icon-for-website.ico">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+        <div class="container">
+            <a class="navbar-brand navbar-light mr-auto" href="index.html" style="color: #fff;">Dados climáticos em
+                cidades dos Estados Unidos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-12 mx-auto">
+                <h1 class="mb-3 text-left">Capitais dos Estados Unidos - Dados Retornados</h1>
+                <div id="accordion">
+                    <div class="card">
+                        <!-- Estados Unidos - Washington, D.C. -->
+                        <div class="card-header" id="headingSix">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link faq-question text-wrap" data-toggle="collapse"
+                                    data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                    Estados Unidos - Washington - Dados retornados da API: OpenWeatherMap
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse faq-answer" aria-labelledby="headingSix"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                            </div>
+                        </div>
+                        <!-- Estados Unidos - Atlanta, Georgia -->
+                        <div class="card-header" id="headingSeven">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link faq-question text-wrap" data-toggle="collapse"
+                                    data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                    Estados Unidos - Atlanta, Georgia - Dados retornados da API: OpenWeatherMap
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSeven" class="collapse faq-answer" aria-labelledby="headingSeven"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                            </div>
+                        </div>
+                        <!-- Estados Unidos - Austin, Texas -->
+                        <div class="card-header" id="headingEight">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link faq-question text-wrap" data-toggle="collapse"
+                                    data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                    Estados Unidos - Austin, Texas - Dados retornados da API: OpenWeatherMap
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseEight" class="collapse faq-answer" aria-labelledby="headingEight"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                            </div>
+                        </div>
+                        <!-- Estados Unidos - Phoenix, Arizona -->
+                        <div class="card-header" id="headingNine">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link faq-question text-wrap" data-toggle="collapse"
+                                    data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                    Estados Unidos - Phoenix, Arizona - Dados retornados da API: OpenWeatherMap
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseNine" class="collapse faq-answer" aria-labelledby="headingNine"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                            </div>
+                        </div>
+                        <!-- Estados Unidos - Sacramento, California -->
+                        <div class="card-header" id="headingTen">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link faq-question text-wrap" data-toggle="collapse"
+                                    data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                                    Estados Unidos - Sacramento, California - Dados retornados da API: OpenWeatherMap
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTen" class="collapse faq-answer" aria-labelledby="headingTen"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

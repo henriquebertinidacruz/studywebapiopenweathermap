@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo API: OpenWeatherMap</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" href="images/logo-icon-for-website.ico">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+        <div class="container">
+            <a class="navbar-brand navbar-light mr-auto" href="index.html" style="color: #fff;">Estudo API: OpenWeatherMap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cidades-brasileiras.html">
+                            <img src="images/brasil.png" alt="Bandeira do Brasil" style="width: 24px; height: auto;">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cidades-estados-unidos.html">
+                            <img src="images/estados-unidos.png" alt="Bandeira dos Estados Unidos" style="width: 24px; height: auto;">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <button class="btn btn-square" onclick="window.location.href='cidades-brasileiras.html'">Cidades Brasileiras</button>
+                <button class="btn btn-square" onclick="window.location.href='cidades-estados-unidos.html'">Cidades Estados Unidos</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
